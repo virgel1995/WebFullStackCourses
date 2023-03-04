@@ -1,10 +1,10 @@
 language = "php"
-
-run = [
-    "php", "artisan", "serve",
-    "--host", "0.0.0.0",
-    "--port", "8000"
-]
+run = "php artisan serve --host 0.0.0.0 --port 3000"
+#run = [
+  #  "php", "artisan", "serve",
+ #   "--host", "0.0.0.0",
+ #   "--port", "3000"
+#]
 
 [nix]
 channel = "stable-22_11"
